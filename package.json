@@ -1,0 +1,32 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "first steps with node and express",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npx nodemon ./src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinART6923/Projects.git"
+  },
+  "keywords": [
+    "node",
+    "NodeJs",
+    "Express"
+  ],
+  "author": "Kevin Eduardo Ortiz Artunduaga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinART6923/Projects/issues"
+  },
+  "homepage": "https://github.com/KevinART6923/Projects#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "file:",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.4"
+  }
+}
