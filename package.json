@@ -24,9 +24,12 @@
   },
   "homepage": "https://github.com/KevinART6923/Projects#readme",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "ejs": "^3.1.10",
     "express": "file:",
     "morgan": "^1.10.0",
-    "nodemon": "^3.1.4"
+    "nodemon": "^3.1.4",
+    "oracledb": "^5.5.0",
+    "pg": "^8.12.0"
   }
 }
